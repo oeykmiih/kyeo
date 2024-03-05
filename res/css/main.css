@@ -282,6 +282,10 @@ html {
     display: flex;
 }
 
+@page {
+    size: 200mm 250mm;
+}
+
 body {
     display: unset;
     width: var(--p_width);
