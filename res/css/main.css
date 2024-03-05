@@ -278,10 +278,13 @@ html {
 
     --font-size: 4.75mm;
     --line-height: 5mm;
+
+    display: flex;
 }
 
 body {
     display: unset;
+    width: var(--p_width);
 }
 
 .page {
