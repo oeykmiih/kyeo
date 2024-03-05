@@ -226,7 +226,7 @@ body {
 
 .page {
     border: 1px dashed black;
-    border-top: initial !important;
+    border-top: initial;
 }
 
 .content {
@@ -258,7 +258,7 @@ body {
 
 .page {
     border: 1px dashed black;
-    border-top: initial !important;
+    border-top: initial;
 }
 
 .content {
