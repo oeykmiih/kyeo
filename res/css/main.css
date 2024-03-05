@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("cleanup.css");
+
 @font-face {
     font-family: "EB Garamond";
     src: url('./../fonts/EBGaramond-Regular.ttf') format('truetype');
@@ -5,32 +8,6 @@
 @font-face {
     font-family: "EB Garamond 12";
     src: url('./../fonts/EBGaramond12-Regular.otf') format('opentype');
-}
-
-/* reset */
-*:focus {
-    outline: none;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-*::-webkit-scrollbar {
-        display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-* {
-    -ms-overflow-style: none;    /* IE and Edge */
-    scrollbar-width: none;    /* Firefox */
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-a {
-    color: unset;
 }
 
 /* basic setup */
