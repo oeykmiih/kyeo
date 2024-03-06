@@ -61,16 +61,8 @@ footer {
     overflow: hidden;
 }
 
-.page:nth-of-type(odd){
-    border-left: 1px dashed black;
-    border-right: 1px dashed black;
-    border-bottom: 1px dashed black;
-}
-
 .page:nth-of-type(even){
     padding: var(--m_top) var(--m_outer) var(--m_bottom) var(--m_inner);
-    border-right: 1px dashed black;
-    border-bottom: 1px dashed black;
 }
 
 .page:nth-of-type(even) header,
@@ -224,11 +216,6 @@ body {
     margin: auto;
 }
 
-.page {
-    border: 1px dashed black;
-    border-top: initial;
-}
-
 .content {
     transform-origin: top left;
     scale: 0.8;
@@ -254,11 +241,6 @@ body {
     display: unset;
     width: unset;
     margin: auto;
-}
-
-.page {
-    border: 1px dashed black;
-    border-top: initial;
 }
 
 .content {
@@ -293,10 +275,5 @@ body {
 
 .page {
     break-after: page;
-}
-
-.page:nth-of-type(odd),
-.page:nth-of-type(even) {
-    border: unset;
 }
 }
